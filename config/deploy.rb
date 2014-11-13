@@ -1,4 +1,3 @@
-require "bundler/capistrano"
 server "192.168.100.203", :web, :app, :db, primary: true
 set :application, "test_deploy"
 set :user, "deployer"
